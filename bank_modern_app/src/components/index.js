@@ -1,16 +1,16 @@
-import Billing from "./components/Billing";
-import Business from "./components/Business";
-import Button from "./components/Button";
-import CardDeal from "./components/CardDeal";
-import Client from "./components/Client";
-import CTA from "./components/CTA";
-import FeedBackCard from "./components/FeedBackCard";
-import Footer from "./components/Footer";
-import GetStarted from "./components/GetStarted";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Stats from "./components/Stats";
-import Testimonials from "./components/Testimonials";
+import Billing from "./Billing";
+import Business from "./Business";
+import Button from "./Button";
+import CardDeal from "./CardDeal";
+import Client from "./Client";
+import CTA from "./CTA";
+import FeedBackCard from "./FeedBackCard";
+import Footer from "./Footer";
+import GetStarted from "./GetStarted";
+import Hero from "./Hero";
+import Navbar from "./Navbar";
+import Stats from "./Stats";
+import Testimonials from "./Testimonials";
 
 export {
   Billing,
