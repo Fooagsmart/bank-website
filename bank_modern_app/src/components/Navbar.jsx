@@ -41,7 +41,7 @@ const Navbar = () => {
               <img src={close} alt="" />
             </div>
 
-            <ul className="list-none flex flex-col justify-end items-center flex-1">
+            <ul className="list-none  flex flex-col justify-end items-center flex-1">
               {navLinks.map((nav, index) => (
                 <li
                   key={nav.id}
@@ -49,7 +49,7 @@ const Navbar = () => {
                     index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
                   } text-white`}
                 >
-                  <a href={`#${nav.id}`} onClick={handleLinkClick}>
+                  <a href={`#${nav.id}`} onClick={handleLinkClick} >
                     {nav.title}
                   </a>
                 </li>

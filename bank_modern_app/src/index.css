@@ -112,6 +112,17 @@
   box-shadow: var(--card-shadow);
 }
 
+button:hover {
+  background: whitesmoke;
+}
+
+nav a:hover {
+  background: var(--black-gradient);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
 .feedback-container .feedback-card:last-child {
   margin-right: 0px;
 }
