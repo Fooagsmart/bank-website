@@ -9,7 +9,7 @@ const GetStarted = () => {
           <p className="font-poppins font-medium text-[18px] leading-[23px] mr-2">
             <span className="text-gradient">Get</span>
           </p>
-          <img src={arrowUp} alt="arrow"  className="w-[23] h-[23px] object-contain"/>
+          <img src={arrowUp} alt="arrow"  className="w-[23px] h-[23px] object-contain"/>
         </div>
         <p className="font-poppins font-medium text-[18px] leading-[23px]">
             <span className="text-gradient">Started</span>

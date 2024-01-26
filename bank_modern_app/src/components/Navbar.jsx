@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full top-0 left-0 p-14  flex py-6 fixed backdrop-blur-3xl  justify-between items-center z-[300] ">
+    <nav className="w-full top-0 left-0 p-5  flex py-6 fixed backdrop-blur-3xl  justify-between items-center z-[300] ">
       <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
 
       <ul className="list-none sm:flex hidden  justify-end items-center flex-1">
