@@ -125,7 +125,7 @@ nav a:hover {
 section .pop:hover{
   background: var(--black-gradient);
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px;
 }
 
 
