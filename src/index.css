@@ -130,8 +130,11 @@ section .pop:hover{
 
 body {
   background-color: bg-primary;
-  margin: 0; /* Make sure there is no default margin */
-  padding: 0; /* Make sure there is no default padding */
+  margin: 0; 
+  padding: 0; 
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; 
 }
 html {
   background-color:bg-primary ;
