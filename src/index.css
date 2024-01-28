@@ -128,6 +128,17 @@ section .pop:hover{
   padding: 5px;
 }
 
+body {
+  background-color: bg-primary;
+  margin: 0; /* Make sure there is no default margin */
+  padding: 0; /* Make sure there is no default padding */
+}
+html {
+  background-color:bg-primary ;
+}
+
+
+
 
 .feedback-container .feedback-card:last-child {
   margin-right: 0px;
