@@ -128,16 +128,18 @@ section .pop:hover{
   padding: 5px;
 }
 
-body {
-  background-color: bg-primary;
-  margin: 0; 
-  padding: 0; 
-  overflow-x: hidden;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch; 
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 4 15 / var(--tw-bg-opacity));
 }
-html {
-  background-color:bg-primary ;
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+body {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 
