@@ -136,7 +136,7 @@ section .pop:hover{
 body, html {
   height: 100%;
   margin: 0;
-  background-color: #11101d;
+  background-color: rgb(0 4 15)
 }
 body {
   overflow: auto;
